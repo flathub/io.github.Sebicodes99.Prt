@@ -19,19 +19,3 @@ modules:
       - type: git
         url: https://github.com/Sebicodes99/pleaserunthat-beta.git
         tag: 1.16.0
-  - name: python3-pyGObject
-    buildsystem: simple
-    build-commands:
-      - pip3 install --verbose --exists-action=i --no-index --find-links="file://${PWD}" --prefix=${FLATPAK_DEST} "pyGObject" --no-build-isolation
-    sources:
-      - type: file
-        url: https://files.pythonhosted.org/packages/44/80/96d6317a15a13a4f80ffa61118dc144a70756135fbc6ace30f9b033f51f7/PyGObject-3.44.1.tar.gz
-        sha256: 665fbe980c91e8b31ad78ed3f66879946948200864002d193f67eccc1d7d5d83
-      - type: file
-        url: https://files.pythonhosted.org/packages/69/ca/9e9fa2e8be0876a9bbf046a1be7ee33e61d4fdfbd1fd25c76c1bdfddf8c4/pycairo-1.23.0.tar.gz
-        sha256: 9b61ac818723adc04367301317eb2e814a83522f07bbd1f409af0dada463c44c
-      - type: file
-        url: https://files.pythonhosted.org/packages/69/ca/9e9fa2e8be0876a9bbf046a1be7ee33e61d4fdfbd1fd25c76c1bdfddf8c4/pycairo-1.23.0.tar.gz
-        sha256: 9b61ac818723adc04367301317eb2e814a83522f07bbd1f409af0dada463c44c
-
-     
