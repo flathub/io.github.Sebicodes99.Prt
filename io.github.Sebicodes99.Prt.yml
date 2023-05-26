@@ -1,7 +1,7 @@
 app-id: io.github.Sebicodes99.Prt
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
-sdk: org.freedesktop.Sdk
+runtime-version: '40'
+sdk: org.gnome.Platform
 command: runner.sh
 finish-args:
   - --share=network
