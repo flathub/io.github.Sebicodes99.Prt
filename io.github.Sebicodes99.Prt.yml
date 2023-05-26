@@ -14,7 +14,7 @@ modules:
       - install -D Flatpak/.desktop /app/share/applications/io.github.Sebicodes99.Prt.desktop
       - install -D Flatpak/plruth.png /app/share/icons/hicolor/128x128/apps/io.github.Sebicodes99.Prt.png
       - install -D Flatpak/io.github.Sebicodes99.Prt.appdata.xml /app/share/metainfo/io.github.Sebicodes99.Prt.appdata.xml
-      - pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} --no-build-isolation PyGObject
+      - pip3 install --verbose --exists-action=i --no-index --prefix=${FLATPAK_DEST} --no-build-isolation PyGObject
 
     sources:
       - type: git
