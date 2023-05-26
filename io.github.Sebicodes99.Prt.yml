@@ -5,6 +5,7 @@ sdk: org.gnome.Sdk
 command: runner.sh
 finish-args:
   - --share=network
+  - --socket=x11
 modules:
   - name: PleaseRunThat
     buildsystem: simple
@@ -18,4 +19,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/Sebicodes99/pleaserunthat-beta.git
-        tag: 1.18.0
+        tag: 1.19.0
