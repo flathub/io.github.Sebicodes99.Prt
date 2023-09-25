@@ -1,0 +1,4 @@
+{
+  "end-of-life": "The application is no longer mantained because of the unsafe it was. Better use GSSH, a SSH with a GUI",
+  "end-of-life-rebase": "io.github.gssh_linux.gssh"
+}
